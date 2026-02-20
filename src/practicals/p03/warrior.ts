@@ -1,7 +1,7 @@
 import { Character } from "./character";
 
 export class Warrior extends Character {
-  private weapon: string ;
+  weapon: string = "" ;
   constructor (name:string , weapon:string , health:number){
     super(name,health);
     this.weapon = weapon ;
@@ -9,12 +9,13 @@ export class Warrior extends Character {
   getWeapon():string{
     return this.weapon;
   }
-  override receiveDamage(damage: number): void {
-    const reduceDamage = damage * 0.9 ;
-    this.health -= reduceDamage ;
+  receiveDamage(damage: number) {
+    const now = this.health;
+    this.health = now - (damage - damage * 0.1);
   }
 
 
 
   // TODO: implement class properties, constructor with super(...), and methods
 }
+ 
