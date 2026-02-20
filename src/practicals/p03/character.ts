@@ -1,1 +1,5 @@
-export class Character {}
+export class Character {
+    name:strng = "";
+
+    
+}

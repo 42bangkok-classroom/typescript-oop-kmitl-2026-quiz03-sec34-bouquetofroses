@@ -2,7 +2,7 @@ export class User {
     firstname:string = "";
     lastname:string = "";
     private age: number = 0;
-    static BIRTH_YEAR :number ;
+    static BIRTH_YEAR :number = 2000 ;
 
     setFirstname(firstname:string){
         this.firstname = firstname ;
