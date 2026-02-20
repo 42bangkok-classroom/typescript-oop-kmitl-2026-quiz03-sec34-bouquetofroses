@@ -1,6 +1,6 @@
 export class Character {
-    name:string = "";
-    health:number = 100 ;
+    name:string ;
+    health:number ;
     constructor (name:string , health:number){
         this.name = name ;
         this.health = health ;
