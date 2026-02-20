@@ -6,7 +6,7 @@ export class Character {
         this.health = health ;
     }
     getName(name:string){
-        return this.name = name ;
+        return this.name ;
     }
     getHealth(){
         return this.health ;
