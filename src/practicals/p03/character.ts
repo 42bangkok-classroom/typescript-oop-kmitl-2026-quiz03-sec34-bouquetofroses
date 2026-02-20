@@ -1,5 +1,5 @@
 export class Character {
-    name:strng = "";
-
+    name:string = "";
     
+
 }

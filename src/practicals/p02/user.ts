@@ -17,7 +17,7 @@ export class User {
         return this.age;
     }
     getFullName(): string {
-        return this.firstname + " " + this.lastname;
+        return this.firstname + "" + this.lastname;
     }
 
 }

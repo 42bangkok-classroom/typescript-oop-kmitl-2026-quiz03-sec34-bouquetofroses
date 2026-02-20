@@ -9,7 +9,7 @@ export class OnlineCourse {
         this.maxStudents = maxStudednts ;
     }
 
-    public enroll() : boolean {
+    public enroll(enrolledStudent:number) : boolean {
 
     }
 
