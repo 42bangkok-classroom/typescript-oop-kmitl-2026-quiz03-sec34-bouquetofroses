@@ -9,9 +9,9 @@ export class Car {
         console.log(this.brand + " " + this.model + " is accelerating...");
     }
     brake():void {
-        console.log(this.brand + " " + this.model + " is breaking...");
+        console.log(this.brand + " " + this.model + " is braking...");
     }
     stop():void {
-        console.log(this.brand + " " + this.model + " is stoping...");
+        console.log(this.brand + " " + this.model + " is stopping...");
     }
 }

@@ -4,7 +4,10 @@ export class User {
     private age: number = 0;
 
     setFirstname(firstname:string){
-        th
+        this.firstname = firstname ;
+    }
+    setLastname(lastname:string){
+        this.lastname = lastname ;
     }
     setAge(age: number): void {
         this.age = age;
