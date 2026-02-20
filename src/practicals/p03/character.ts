@@ -5,12 +5,13 @@ export class Character {
         this.name = name ;
         this.health = health ;
     }
-    getName(){
-
+    getName(name:string){
+        return this.name = name ;
     }
-
     getHealth(){
-
+        return this.health ;
     }
-
+    receiveDamage (damage:number):void{
+        this.health -= damage ;
+    }
 }

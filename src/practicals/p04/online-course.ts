@@ -10,7 +10,7 @@ export class OnlineCourse {
     }
 
     public enroll(enrolledStudent:number) : boolean {
-
+        
     }
 
     public closeCourse(): void {
