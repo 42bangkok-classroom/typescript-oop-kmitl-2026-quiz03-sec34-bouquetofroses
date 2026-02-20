@@ -1,7 +1,7 @@
 export class OnlineCourse {
     public courseName: string ;
     public maxStudents: number ;
-    private enrolledStudemts: number = 0  ;
+    private enrolledStudents: number = 0  ;
     private isOpen : boolean ;
 
     constructor OnlineCourse ( courseName: string , maxStudents: number){
@@ -27,7 +27,7 @@ export class OnlineCourse {
     }
 
     private canEnroll():boolean {
-        
+
     }
 
 }
